@@ -1,0 +1,20 @@
+.select_desc {
+  padding: 0.41rem 0.41rem 0.3rem;
+  border-bottom: 0.01rem solid rgba(212, 212, 212, 1);
+  & > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.36rem 0 0.26rem;
+    & > p {
+      width: 0.24rem;
+      height: 0.02rem;
+      background: rgba(235, 235, 235, 1);
+    }
+  }
+  & > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

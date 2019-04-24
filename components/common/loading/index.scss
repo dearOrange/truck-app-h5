@@ -1,0 +1,10 @@
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5rem;
+
+  &.fullscreen {
+    height: 100vh;
+  }
+}

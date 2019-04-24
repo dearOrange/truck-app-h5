@@ -1,0 +1,18 @@
+@import 'theme/global';
+
+.text-value {
+  display: flex;
+  font-size: 0.26rem;
+  .text {
+    color: $thirdTextColor;
+  }
+  .value {
+    margin-left: 0.1rem;
+  }
+}
+.title {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

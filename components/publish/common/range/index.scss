@@ -1,0 +1,15 @@
+.label {
+  font-size: 0.26rem;
+  font-family: PingFang-SC-Medium;
+  color: rgba(0, 174, 102, 1);
+}
+.options {
+  padding: 0.3rem 0 0.37rem;
+  border-bottom: 0.01rem solid rgba(232, 229, 232, 1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.inherit {
+  display: inherit;
+}

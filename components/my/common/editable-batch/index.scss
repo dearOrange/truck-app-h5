@@ -1,0 +1,32 @@
+@import 'theme/global';
+
+$batchHeight: 1.4rem;
+
+.batch {
+  height: $batchHeight;
+}
+
+.inner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: $batchHeight;
+  width: 100%;
+  padding: 0 $sidePaddingWidth;
+  background: #fff;
+  box-shadow: 0 -0.09rem 0.18rem 0 rgba(179, 179, 179, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  > .buttons {
+    display: flex;
+    justify-content: space-between;
+    > button {
+      margin-left: 0.25rem;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

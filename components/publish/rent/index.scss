@@ -1,0 +1,44 @@
+.formInput {
+  padding: 0 0.25rem;
+  margin-bottom: 0.4rem;
+}
+.form {
+  font-size: 0.24rem;
+}
+
+.formError {
+  position: absolute;
+  color: red;
+  margin-top: 0.1rem;
+}
+.rangeLine {
+  flex-shrink: 0;
+  height: 1px;
+  width: 0.24rem;
+  margin: 0 0.2rem;
+  background: #ebebeb;
+}
+.unit {
+  font-size: 0.24rem;
+  font-family: PingFang-SC-Medium;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 0.17rem;
+}
+.buttonBox {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  & > .space {
+    width: 0.5rem;
+  }
+}
+.selprices {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.marginspace {
+  margin-right: 0.3rem;
+}
+.topspace {
+  position: relative;
+}

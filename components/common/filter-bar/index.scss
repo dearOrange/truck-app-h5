@@ -1,0 +1,81 @@
+@import 'theme/global';
+
+$filterBarHeight: 0.86rem;
+
+.filterBar {
+  position: relative;
+  border-bottom: 1px solid rgba(212, 212, 212, 1);
+  height: 0.86rem;
+  .inner {
+    position: fixed;
+    left: 0;
+    top: $topBarHeight;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 0.86rem;
+    padding: 0 $sidePaddingWidth;
+    background: rgba(245, 245, 245, 1);
+    & > .icon {
+      width: 0.32rem;
+      height: 0.33rem;
+    }
+  }
+}
+
+.filterItem {
+  display: flex;
+  align-items: center;
+  &.on {
+    > .label {
+      color: #00ae66;
+    }
+
+    > svg {
+      fill: #00ae66;
+      transform: rotate3d(0, 0, 1, 180deg);
+    }
+  }
+  > .label {
+    font-size: 0.26rem;
+    > svg {
+      width: 0.32rem;
+      height: 0.32rem;
+    }
+  }
+  > svg {
+    margin-left: 0.05rem;
+    margin-top: -0.03rem;
+    width: 0.15rem;
+    height: 0.15rem;
+    fill: #c0c0c0;
+  }
+}
+
+.filterContent {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 99;
+  width: 100%;
+
+  > .mask {
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100vh;
+  }
+
+  > .wrap {
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    max-height: calc(100vh - #{$topBarHeight} - #{$filterBarHeight});
+    overflow: auto;
+  }
+}

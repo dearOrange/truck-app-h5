@@ -1,0 +1,33 @@
+@import 'theme/global';
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 0.1rem 0;
+}
+
+.option {
+  flex-shrink: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 2.08rem;
+  background: rgba(245, 245, 245, 1);
+  border-radius: 0.04rem;
+  // border-radius: 50%;
+  padding: 0.12rem 0;
+  font-style: normal;
+  cursor: pointer;
+  box-sizing: border-box;
+  &.active {
+    border-color: rgba(223, 247, 237, 1);
+    background: rgba(223, 247, 237, 1);
+    color: $primaryColor;
+  }
+}
+
+.label {
+  margin-left: 0.25rem;
+}

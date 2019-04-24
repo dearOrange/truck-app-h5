@@ -1,0 +1,53 @@
+@import 'theme/global';
+
+$btmHeight: 1.2rem;
+
+.bottom {
+  width: 100%;
+  height: $btmHeight;
+}
+
+.inner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: $btmHeight;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  background: #fff;
+}
+
+.contact {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00ae66;
+  color: #fff;
+  > svg {
+    width: 0.53rem;
+    height: 0.52rem;
+  }
+  > .contactContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.24rem;
+    margin-left: 0.05rem;
+    .phone {
+      font-size: 0.36rem;
+    }
+  }
+}
+.appoint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
+  background: rgba(229, 122, 50, 1);
+  font-size: 0.3rem;
+  color: #fff;
+}

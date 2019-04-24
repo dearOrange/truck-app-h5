@@ -1,0 +1,10 @@
+@import 'theme/global';
+
+.group {
+  background: #fff;
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

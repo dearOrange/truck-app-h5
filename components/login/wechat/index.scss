@@ -1,0 +1,15 @@
+@import 'theme/global';
+
+.wechat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & > svg {
+    width: 0.63rem;
+    height: 0.52rem;
+  }
+  & > span {
+    font-size: 0.24rem;
+    color: $secondTextColor;
+  }
+}

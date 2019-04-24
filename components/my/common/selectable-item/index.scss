@@ -1,0 +1,12 @@
+.selectableItem {
+  display: flex;
+  > .checkbox {
+    flex-shrink: 0;
+    flex: 1 auto;
+    align-self: center;
+    margin-right: 0.3rem;
+  }
+  > .content {
+    flex-basis: 100%;
+  }
+}

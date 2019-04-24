@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'MicrosoftYaHei', 'Avenir', Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: #fff !important;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+input,
+textarea {
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+input {
+  text-indent: 0.32rem;
+  height: 0.56rem;
+}
+::-webkit-input-placeholder {
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #c9c9c9;
+}
+
+ul,
+li {
+  /* font-style: normal; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

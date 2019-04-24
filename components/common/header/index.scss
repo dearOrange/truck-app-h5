@@ -1,0 +1,55 @@
+@import 'theme/global';
+
+$headerHeight: $topBarHeight;
+
+.header {
+  height: $topBarHeight;
+}
+
+.inner {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: $topBarHeight;
+  padding: 0 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  background: $primaryColor;
+  color: #fff;
+  svg {
+    font-size: 0.36rem;
+  }
+}
+
+.headerLt {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 1rem;
+}
+
+.headerMd {
+  display: flex;
+  justify-content: center;
+  flex: 1 auto;
+  font-size: 0.36rem;
+}
+
+.headerRt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1.2rem;
+
+  > svg {
+    margin-left: 0.25rem;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

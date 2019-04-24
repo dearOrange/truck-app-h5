@@ -1,0 +1,33 @@
+@import 'theme/global';
+
+.team {
+  text-align: center;
+  > h2 {
+    margin: 0;
+    font-size: 0.36rem;
+    font-weight: 700;
+    line-height: 0.36rem;
+  }
+  > h3 {
+    font-size: 0.24rem;
+    color: #8f8f8f;
+    line-height: 0.24rem;
+    margin: 0;
+    font-weight: 400;
+  }
+  > .pic {
+    > img {
+      display: block;
+    }
+  }
+  > .tel {
+    display: flex;
+    justify-content: center;
+    font-size: 0.24rem;
+    color: #b1b1b1;
+    line-height: 0.24rem;
+    > .num {
+      color: $primaryColor;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import 'theme/search';
+
+.history {
+  margin-top: $searchHeight;
+  padding: 0.2rem 0;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.4rem 0.2rem;
+  border-bottom: 1px solid #ebebeb;
+  > .text {
+    font-size: 0.3rem;
+  }
+  > svg {
+    font-size: 0.4rem;
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  .item {
+    width: 50%;
+    flex-shrink: 0;
+    padding-left: 0.4rem;
+
+    &:nth-child(2n + 2) {
+      border-left: 1px solid #ebebeb;
+    }
+  }
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 0.8rem;
+  padding-right: 0.6rem;
+  border-bottom: 1px solid #ebebeb;
+  color: #666;
+}

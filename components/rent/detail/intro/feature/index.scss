@@ -1,0 +1,14 @@
+.feature {
+  margin-top: 0.57rem;
+  > li {
+    display: flex;
+    margin-bottom: 0.24rem;
+    font-size: 0.28rem;
+    .label {
+      width: 4em;
+      margin-right: 0.5rem;
+      color: #666666;
+      flex-shrink: 0;
+    }
+  }
+}

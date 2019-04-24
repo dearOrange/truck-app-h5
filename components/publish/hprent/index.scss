@@ -1,0 +1,31 @@
+.formError {
+  position: absolute;
+  color: red;
+  margin-top: 0.1rem;
+}
+.buttonBox {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+  & > svg {
+    width: 0.44rem;
+    height: 0.64rem;
+  }
+  & > span {
+    font-size: 0.3rem;
+    color: rgba(0, 174, 102, 1);
+    margin-left: 0.1rem;
+  }
+}
+.selPovince {
+  display: flex;
+  align-items: center;
+  & > span {
+    margin-right: 0.3rem;
+  }
+}

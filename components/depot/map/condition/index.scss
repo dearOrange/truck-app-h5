@@ -1,0 +1,26 @@
+.condition {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+
+  > .mask {
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+  }
+
+  > .wrap {
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    max-height: 100%;
+    overflow: auto;
+  }
+}

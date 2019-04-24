@@ -1,0 +1,35 @@
+.title {
+  font-size: 0.38rem;
+  font-weight: 500;
+}
+.priceAndTags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.25rem 0 0;
+
+  .price {
+    display: flex;
+    align-items: center;
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    color: #fa5842;
+
+    .num {
+      font-size: 0.56rem;
+      font-weight: bold;
+      margin-right: 0.15rem;
+    }
+  }
+
+  .tags {
+    display: flex;
+
+    .item {
+      margin-left: 0.05rem;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

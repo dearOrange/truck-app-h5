@@ -1,0 +1,14 @@
+@import 'theme/global';
+
+.separator {
+  height: 0.3rem;
+  background: #f5f5f5;
+}
+.group {
+  background: #fff;
+  .head {
+    padding: 0.3rem $sidePaddingWidth;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 0.3rem;
+  }
+}

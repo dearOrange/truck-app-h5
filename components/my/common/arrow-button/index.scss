@@ -1,0 +1,54 @@
+@import 'theme/global';
+
+.arrowButton {
+  display: flex;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 $sidePaddingWidth;
+}
+
+.inner {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.05rem;
+  padding: 0 $sidePaddingWidth;
+  border-bottom: 1px solid #ebebeb;
+
+  &.hasHeader {
+    padding-left: 0;
+  }
+
+  .label {
+    font-size: 0.3rem;
+  }
+
+  > .left {
+    display: flex;
+    align-items: center;
+
+    > .leftIcon {
+      margin-right: 0.3rem;
+    }
+  }
+
+  > .right {
+    display: flex;
+    align-items: center;
+    > .rightLabel {
+      color: $secondTextColor;
+    }
+    > .arrow {
+      width: 0.3rem;
+      height: 0.3rem;
+      margin-left: 0.1rem;
+    }
+  }
+}

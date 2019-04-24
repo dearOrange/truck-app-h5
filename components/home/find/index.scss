@@ -1,0 +1,36 @@
+@import 'theme/global';
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 1 auto;
+  padding: 0.35rem 0.28rem;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &:first-child {
+    margin-right: 0.2rem;
+  }
+}
+.desc {
+  flex: 1 auto;
+  margin-right: 0.24rem;
+  color: $secondTextColor;
+  font-size: 0.24rem;
+  .title {
+    margin-bottom: 0.06rem;
+    font-size: 0.32rem;
+  }
+}
+.img {
+  flex-shrink: 0;
+  width: 0.97rem;
+  height: 0.55rem;
+  > img {
+    display: block;
+  }
+}

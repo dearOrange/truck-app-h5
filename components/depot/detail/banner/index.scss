@@ -1,0 +1,26 @@
+.banner {
+  height: 5.6rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.bannerItem {
+  height: 5.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+}
+.banner--preview--pagination {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  z-index: 99;
+}

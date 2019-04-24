@@ -1,0 +1,17 @@
+.serve {
+  display: flex;
+  align-items: center;
+  font-size: 0.26rem;
+  margin-left: 0.15rem;
+  &:first-child {
+    margin-left: 0;
+  }
+  > svg {
+    width: 0.3rem;
+    height: 0.3rem;
+    fill: #8cddbb;
+  }
+  > .text {
+    margin-left: 0.09rem;
+  }
+}

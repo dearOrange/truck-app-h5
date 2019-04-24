@@ -1,0 +1,10 @@
+@import 'theme/global';
+
+.item {
+  padding: 0.4rem $sidePaddingWidth;
+  border-bottom: 1px solid #ebebeb;
+  background: #fff;
+  &:last-child {
+    border-bottom: none;
+  }
+}

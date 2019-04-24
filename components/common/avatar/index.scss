@@ -1,0 +1,31 @@
+@import 'theme/global';
+
+.avatar {
+  border-radius: 50%;
+  padding: 0.1rem;
+  overflow: hidden;
+  background: #11965f;
+
+  &.borderless {
+    padding: 0;
+    background: none;
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.54rem;
+    height: 1.54rem;
+    border-radius: 50%;
+    background: #dfdfdf;
+    overflow: hidden;
+
+    > svg {
+      align-self: flex-end;
+      width: 80%;
+      height: 80%;
+      color: #fff;
+    }
+  }
+}

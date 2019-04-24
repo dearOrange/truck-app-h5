@@ -1,0 +1,23 @@
+@import 'theme/global';
+
+.sort {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  background: #fff;
+  font-size: 0.28rem;
+  > li {
+    height: 0.8rem;
+    line-height: 0.8rem;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: $topBarHeight;
+  left: 0;
+  width: 100%;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.15);
+}

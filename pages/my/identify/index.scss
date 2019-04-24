@@ -1,0 +1,25 @@
+@import 'theme/global';
+
+.certificate {
+  background: $primaryBgColor;
+
+  .certIcon {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+
+  .label {
+    &.ing {
+      color: #f52121;
+    }
+    &.none {
+      color: #666;
+    }
+    &.not {
+      color: #f52121;
+    }
+    &.done {
+      color: #00ae66;
+    }
+  }
+}

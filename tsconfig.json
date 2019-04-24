@@ -1,0 +1,43 @@
+{
+  "exclude": ["node_modules", "/.next/**"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@api/*": ["api/*"],
+      "@config": ["./config/index"],
+      "@utils/*": ["utils/*"],
+      "@store/*": ["store/*"],
+      "@constant/*": ["constant/*"],
+      "@hoc/*": ["components/hoc/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "allowJs": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "lib": ["dom", "es2017"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "customMatcher": ".(sc|sa|c|le)ss$"
+        }
+      }
+    ]
+  }
+}

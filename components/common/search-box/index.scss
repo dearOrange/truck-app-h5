@@ -1,0 +1,29 @@
+@import 'theme/global';
+@import 'theme/search';
+
+.box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 $sidePaddingWidth;
+  color: #fff;
+  background: $primaryColor;
+
+  + * {
+    margin-top: $searchHeight;
+  }
+  &--sticky {
+    + * {
+      margin-top: 0;
+    }
+  }
+
+  .back {
+    flex-shrink: 0;
+    margin-right: 0.24rem;
+  }
+}

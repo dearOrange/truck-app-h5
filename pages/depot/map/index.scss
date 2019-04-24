@@ -1,0 +1,8 @@
+@import 'theme/global';
+
+.content {
+  position: relative;
+  background: #fff;
+  height: calc((100vh - #{$topBarHeight}));
+  overflow: auto;
+}

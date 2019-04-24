@@ -1,0 +1,13 @@
+@import 'theme/global';
+
+.form {
+  padding: 0.3rem $sidePaddingWidth;
+  font-size: 0.24rem;
+  background: #fff;
+}
+
+.formError {
+  position: absolute;
+  color: red;
+  margin-top: 0.1rem;
+}

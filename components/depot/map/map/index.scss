@@ -1,0 +1,15 @@
+@import 'theme/global';
+
+.map {
+  height: 100%;
+}
+
+.modal {
+  > .title {
+    color: $primaryTextColor;
+  }
+
+  > .price {
+    color: $thirdTextColor;
+  }
+}

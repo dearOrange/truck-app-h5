@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  align-items: center;
+  img {
+    flex-shrink: 0;
+    width: 0.64rem;
+    height: 0.64rem;
+  }
+  .desc {
+    font-size: 0.28rem;
+    margin-left: 0.37rem;
+  }
+}
+.newsList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.35rem;
+  .news {
+    flex-shrink: 0;
+    width: 48%;
+    height: 1.2rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .newsTitle {
+      font-size: 0.28rem;
+      font-weight: 900;
+      margin-bottom: 0.05rem;
+    }
+    .newsDesc {
+      color: #666;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.basic {
+  & > li {
+    margin-top: 0.36rem;
+    display: flex;
+    font-size: 0.28rem;
+    &:first-child {
+      margin-top: 0;
+    }
+
+    .key {
+      flex-basis: 40%;
+      flex-shrink: 0;
+      color: #666666;
+    }
+    .value {
+      flex-basis: 60%;
+      flex-shrink: 0;
+      color: #333333;
+    }
+  }
+}
+
+.more {
+  height: 0.8rem;
+  margin-top: 0.3rem;
+  border-radius: 0.04rem;
+  line-height: 0.8rem;
+  font-size: 0.28rem;
+  color: #4d6e60;
+  text-align: center;
+  background: #e8e8eb;
+}

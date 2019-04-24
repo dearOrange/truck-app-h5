@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.item {
+  width: 60%;
+  flex-shrink: 0;
+  margin-left: 0.15rem;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.title {
+  padding: 0.21rem 0 0.21rem 0.33rem;
+  background: #388d6a;
+  font-size: 0.3rem;
+  color: #fff;
+}
+
+ul.content {
+  padding: 0.4rem 0.3rem;
+  background: #ededed;
+  > li {
+    margin-top: 0.28rem;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .key {
+    font-size: 0.28rem;
+  }
+  .value {
+    font-size: 0.24rem;
+  }
+}

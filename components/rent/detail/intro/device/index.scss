@@ -1,0 +1,29 @@
+@import 'theme/global';
+
+.subTitle {
+  font-size: 0.3rem;
+  margin: 0 0 0.3rem;
+
+  color: $secondTextColor;
+}
+
+.device {
+  display: flex;
+  flex-wrap: wrap;
+  > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.26rem;
+    margin-right: 0.4rem;
+    .logo {
+      width: 0.41rem;
+      height: 0.5rem;
+      margin-bottom: 0.22rem;
+    }
+  }
+}
+
+.service {
+  display: flex;
+}

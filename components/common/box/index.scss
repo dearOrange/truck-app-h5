@@ -1,0 +1,15 @@
+@import 'theme/global';
+
+.box {
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    font-size: 0.36rem;
+    .right {
+      font-size: 0.24rem;
+      color: $secondTextColor;
+    }
+  }
+}

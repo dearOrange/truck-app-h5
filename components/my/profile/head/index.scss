@@ -1,0 +1,50 @@
+@import 'theme/global';
+
+.head {
+  padding: 0.65rem $sidePaddingWidth;
+  background: $primaryColor;
+  display: flex;
+
+  &.head__unlogged {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    > .loginBtn {
+      width: 3.08rem;
+      height: 0.66rem;
+      background: #fff;
+      border-radius: 0.04rem;
+      font-size: 0.3rem;
+      color: $primaryColor;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.22rem;
+    }
+  }
+  &.head__logged {
+    > .user {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 0.56rem;
+      > .name {
+        font-size: 0.36rem;
+        color: #fff;
+      }
+      > .edit {
+        display: flex;
+        margin-top: 0.25rem;
+        > .text {
+          font-size: 0.26rem;
+          color: #fff;
+        }
+        svg {
+          width: 0.28rem;
+          height: 0.3rem;
+          fill: #fff;
+        }
+      }
+    }
+  }
+}

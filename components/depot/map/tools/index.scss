@@ -1,0 +1,12 @@
+.tools {
+  position: fixed;
+  right: 0.3rem;
+  bottom: 1.2rem;
+  z-index: 99;
+  > .item {
+    margin-top: 0.3rem;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

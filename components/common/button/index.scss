@@ -1,0 +1,49 @@
+.button {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--small {
+    height: 0.8rem;
+    padding: 0 0.3rem;
+    font-size: 0.24rem;
+  }
+
+  &--middle {
+    height: 0.96rem;
+    padding: 0 0.4rem;
+    font-size: 0.32rem;
+  }
+
+  &--primary {
+    background: #00ae66;
+    color: #fff;
+  }
+
+  &--info {
+    background: #ebebeb;
+    color: #333;
+  }
+
+  &--save {
+    border: 0.01rem solid #00ae66;
+    background: transparent;
+    color: #00ae66;
+  }
+
+  &--full {
+    width: 100%;
+  }
+
+  &--round {
+    border-radius: 4px;
+  }
+
+  &--disabled {
+    opacity: 0.6;
+  }
+}

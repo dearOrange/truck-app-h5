@@ -1,0 +1,35 @@
+@import 'theme/global';
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.item {
+  width: 60%;
+  flex-shrink: 0;
+  margin-left: 0.15rem;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.img {
+  > img {
+    display: block;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 0.3rem;
+}
+.address {
+  font-size: 0.24rem;
+  color: $thirdTextColor;
+}

@@ -1,0 +1,27 @@
+@import 'theme/global';
+
+$MyTabsHeight: 0.9rem;
+
+.tabs {
+  height: $MyTabsHeight;
+  .inner {
+    position: fixed;
+    left: 0;
+    top: $topBarHeight;
+    z-index: 9;
+    height: $MyTabsHeight;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+  }
+}
+
+.tabItem {
+  font-size: 0.28rem;
+  color: $thirdTextColor;
+  &.active {
+    color: $primaryColor;
+  }
+}

@@ -1,0 +1,65 @@
+@import 'theme/global';
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.option {
+  position: relative;
+  flex-shrink: 0;
+
+  > input[type='checkbox'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    height: 0.36rem;
+    width: 0.36rem;
+    border: 1px solid #999;
+    // border-radius: 50%;
+    padding: 0;
+    font-style: normal;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  &.active {
+    > i {
+      border-color: $primaryColor;
+      background: $primaryColor;
+      &::before {
+        content: '';
+        width: 0.16rem;
+        height: 0.1rem;
+        border-style: solid;
+        border-width: 1px;
+        border-color: transparent transparent #fff #fff;
+        transform: translate3d(0, -0.04rem, 0) rotate3d(0, 0, 1, -45deg);
+        transform-origin: 50% 50%;
+      }
+    }
+  }
+}
+
+.label {
+  margin-left: 0.15rem;
+}
+
+.group {
+  display: flex;
+  > .group-item {
+    margin-left: 0.3rem;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

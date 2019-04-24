@@ -1,0 +1,28 @@
+.profile {
+  display: flex;
+  padding: 0.5rem 0;
+  & > .profile_img {
+    width: 1rem;
+    height: 1rem;
+  }
+  & > .profile_desc {
+    flex: 1;
+    margin-left: 0.49rem;
+    & > p {
+      font-size: 0.3rem;
+      & > span {
+        margin-right: 0.52rem;
+      }
+    }
+    & > span {
+      font-size: 0.24rem;
+      color: #999999;
+      margin: 0.09rem 0;
+    }
+  }
+  & > svg {
+    width: 0.32rem;
+    height: 0.32rem;
+    fill: #59d380;
+  }
+}

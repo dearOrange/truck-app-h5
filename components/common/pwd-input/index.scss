@@ -1,0 +1,13 @@
+@import 'theme/global';
+
+.pwd {
+  position: relative;
+}
+
+.visible {
+  color: $secondTextColor;
+  > svg {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+}

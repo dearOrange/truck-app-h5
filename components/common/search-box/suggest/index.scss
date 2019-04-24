@@ -1,0 +1,40 @@
+@import 'theme/global';
+@import 'theme/search';
+
+.suggest {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  max-height: calc(100vh - #{$searchHeight});
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: -1px 0px 6px rgba(0, 0, 0, 0.5);
+  color: $primaryTextColor;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0.4rem 0.2rem;
+  border-bottom: 1px solid #ebebeb;
+  .label {
+    font-size: 0.32rem;
+    margin-bottom: 0.1rem;
+  }
+  .subtitle {
+    font-size: 0.24rem;
+    color: #999;
+    > span {
+      margin-left: 0.05rem;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  .count {
+    font-size: 0.32rem;
+  }
+}
